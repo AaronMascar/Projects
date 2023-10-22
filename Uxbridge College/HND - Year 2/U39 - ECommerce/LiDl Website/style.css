@@ -1,0 +1,628 @@
+/*control the layer */
+
+
+/*control wrapper*/
+#aaron{
+	width:1000px;/*width of the main area*/
+	margin:0 auto;/*adds a margin */
+}
+
+/*LiDL logo left side*/
+.img1{
+	float:left;/*position of the image1*/
+	margin-left: 50px;/*left margin of the image1*/
+	margin-top: 10px;/*top margin of the image1*/
+	border-radius: 4px;/*side gaps within the image1*/
+	transition: 0.6s ease;/*smooth fade effect*/
+	cursor: pointer;/*changes cursor to pointer*/
+}
+
+/*when the mouse hover over image1*/
+.img1:hover{
+	box-shadow: 0 0 0 3px;/*box shadow of the on-click text box*/
+	border-radius: 2px;/*corners of the image1*/
+}
+
+
+/*control the heading*/
+#header{
+	width:100%;/*width of the header*/       
+	float:left;/*position of the header*/
+	border:0px solid black;/*border of the header*/ 
+	color: #0033cc;/*color of the header text*/
+	font-family: Century Gothic;/*font of the header*/
+	background-color: #ffff00;/*background color of the header*/
+	text-align:center;/*alignment of the text of the header*/
+	border-radius: 4px;/*corners of the header box*/
+}
+
+/*controls the info box*/
+.Info{
+	width:900px;/*width of the info box*/       
+	float:left;/*position of the info box*/
+	color: #0033cc;/*color of the info box text*/
+	font-family: Century Gothic;/*font of the info box*/
+	background-color: #ffff00;/*background color of the info box*/
+	text-align:center;/*alignment of the text of the info box*/
+	margin-right:49px;/*right margin of the info box*/
+	margin-left: 49px;/*width of the info box*/
+	border-radius: 4px;/*corners of the info box*/
+}
+
+/*controls the pop-up box for the first product*/
+#popupBoxOnePosition{
+	top: 0;/*adjusts top position of the pop-up box*/ 
+	left: 0;/*adjusts left position of the pop-up box*/ 
+	position: fixed;/*fixed position of the pop-up box*/  
+	width: 100%;/*width of the pop-up box*/
+	height: 120%;/*height of the pop-up box*/
+	background-color: rgba(0,0,0,0.7);/*background color of the pop-up box*/
+	display: none;/*block - one beneath / in-line - side by side for the pop-up box*/
+}
+
+/*controls the pop-up box for the second product*/
+#popupBoxTwoPosition{
+	top: 0; /*adjusts top position of the pop-up box*/
+	left: 0; /*adjusts left position of the pop-up box*/
+	position: fixed; /*fixed position of the pop-up box*/
+	width: 100%; /*width of the pop-up box*/
+	height: 120%;/*height of the pop-up box*/
+	background-color: rgba(0,0,0,0.7); /*background color of the pop-up box*/
+	display: none;/*block - one beneath / in-line - side by side for the pop-up box*/
+}
+
+/*controls the pop-up box for the third product*/
+#popupBoxThreePosition{
+	top: 0; /*adjusts top position of the pop-up box*/
+	left: 0; /*adjusts left position of the pop-up box*/
+	position: fixed; /*fixed position of the pop-up box*/
+	width: 100%; /*width of the pop-up box*/
+	height: 120%;/*height of the pop-up box*/
+	background-color: rgba(0,0,0,0.7); /*background color of the pop-up box*/
+	display: none;/*block - one beneath / in-line - side by side for the pop-up box*/
+}
+
+/*controls the pop-up box for the fourth product*/
+#popupBoxFourPosition{ 
+	top: 0; /*adjusts top position of the pop-up box*/
+	left: 0; /*adjusts left position of the pop-up box*/
+	position: fixed; /*fixed position of the pop-up box*/
+	width: 100%; /*width of the pop-up box*/
+	height: 120%;/*height of the pop-up box*/
+	background-color: rgba(0,0,0,0.7); /*background color of the pop-up box*/
+	display: none;/*block - one beneath / in-line - side by side for the pop-up box*/
+}
+
+/*controls the pop-up box for the fifth product*/
+#popupBoxFivePosition{
+	top: 0; /*adjusts top position of the pop-up box*/
+	left: 0; /*adjusts left position of the pop-up box*/
+	position: fixed; /*fixed position of the pop-up box*/
+	width: 100%; /*width of the pop-up box*/
+	height: 120%;/*width of the pop-up box*/
+	background-color: rgba(0,0,0,0.7); /*background color of the pop-up box*/
+	display: none;/*block - one beneath / in-line - side by side for the pop-up box*/
+}
+
+/*controls the pop-up box for the sixth product*/
+#popupBoxSixPosition{
+	top: 0; /*adjusts top position of the pop-up box*/
+	left: 0; /*adjusts left position of the pop-up box*/
+	position: fixed; /*fixed position of the pop-up box*/
+	width: 100%; /*width of the pop-up box*/
+	height: 120%;/*width of the pop-up box*/
+	background-color: rgba(0,0,0,0.7); /*background color of the pop-up box*/
+	display: none;/*block - one beneath / in-line - side by side for the pop-up box*/
+}
+
+#popupBoxSevenPosition{
+	top: 0; /*adjusts top position of the pop-up box*/
+	left: 0; /*adjusts left position of the pop-up box*/
+	position: fixed; /*fixed position of the pop-up box*/
+	width: 100%; /*width of the pop-up box*/
+	height: 120%;/*width of the pop-up box*/
+	background-color: rgba(0,0,0,0.7); /*background color of the pop-up box*/
+	display: none;/*block - one beneath / in-line - side by side for the pop-up box*/
+	cursor: pointer;/*changes cursor to pointer*/
+}
+
+#popupBoxEightPosition{
+	top: 0; /*adjusts top position of the pop-up box*/
+	left: 0; /*adjusts left position of the pop-up box*/
+	position: fixed; /*fixed position of the pop-up box*/
+	width: 100%; /*width of the pop-up box*/
+	height: 120%;/*width of the pop-up box*/
+	background-color: rgba(0,0,0,0.7); /*background color of the pop-up box*/
+	display: none;/*block - one beneath / in-line - side by side for the pop-up box*/
+	cursor: pointer;/*changes cursor to pointer*/
+}
+
+#popupBoxNinePosition{
+	top: 0; /*adjusts top position of the pop-up box*/
+	left: 0; /*adjusts left position of the pop-up box*/
+	position: fixed; /*fixed position of the pop-up box*/
+	width: 100%; /*width of the pop-up box*/
+	height: 120%;/*width of the pop-up box*/
+	background-color: rgba(0,0,0,0.7); /*background color of the pop-up box*/
+	display: none;/*block - one beneath / in-line - side by side for the pop-up box*/
+	cursor: pointer;/*changes cursor to pointer*/
+}
+
+#popupBoxTenPosition{
+	top: 0; /*adjusts top position of the pop-up box*/
+	left: 0; /*adjusts left position of the pop-up box*/
+	position: fixed; /*fixed position of the pop-up box*/
+	width: 100%; /*width of the pop-up box*/
+	height: 120%;/*width of the pop-up box*/
+	background-color: rgba(0,0,0,0.7); /*background color of the pop-up box*/
+	display: none;/*block - one beneath / in-line - side by side for the pop-up box*/
+	cursor: pointer;/*changes cursor to pointer*/
+}
+
+#popupBoxElevenPosition{
+	top: 0; /*adjusts top position of the pop-up box*/
+	left: 0; /*adjusts left position of the pop-up box*/
+	position: fixed; /*fixed position of the pop-up box*/
+	width: 100%; /*width of the pop-up box*/
+	height: 120%;/*width of the pop-up box*/
+	background-color: rgba(0,0,0,0.7); /*background color of the pop-up box*/
+	display: none;/*block - one beneath / in-line - side by side for the pop-up box*/
+	cursor: pointer;/*changes cursor to pointer*/
+}
+
+#popupBoxTwelvePosition{
+	top: 0; /*adjusts top position of the pop-up box*/
+	left: 0; /*adjusts left position of the pop-up box*/
+	position: fixed; /*fixed position of the pop-up box*/
+	width: 100%; /*width of the pop-up box*/
+	height: 120%;/*width of the pop-up box*/
+	background-color: rgba(0,0,0,0.7); /*background color of the pop-up box*/
+	display: none;/*block - one beneath / in-line - side by side for the pop-up box*/
+	cursor: pointer;/*changes cursor to pointer*/
+}
+
+#popupBoxThirtPosition{
+	top: 0; /*adjusts top position of the pop-up box*/
+	left: 0; /*adjusts left position of the pop-up box*/
+	position: fixed; /*fixed position of the pop-up box*/
+	width: 100%; /*width of the pop-up box*/
+	height: 120%;/*width of the pop-up box*/
+	background-color: rgba(0,0,0,0.7); /*background color of the pop-up box*/
+	display: none;/*block - one beneath / in-line - side by side for the pop-up box*/
+	cursor: pointer;/*changes cursor to pointer*/
+}
+
+#popupBoxFourtPosition{
+	top: 0; /*adjusts top position of the pop-up box*/
+	left: 0; /*adjusts left position of the pop-up box*/
+	position: fixed; /*fixed position of the pop-up box*/
+	width: 100%; /*width of the pop-up box*/
+	height: 120%;/*width of the pop-up box*/
+	background-color: rgba(0,0,0,0.7); /*background color of the pop-up box*/
+	display: none;/*block - one beneath / in-line - side by side for the pop-up box*/
+	cursor: pointer;/*changes cursor to pointer*/
+}
+
+#popupBoxFivetPosition{
+	top: 0; /*adjusts top position of the pop-up box*/
+	left: 0; /*adjusts left position of the pop-up box*/
+	position: fixed; /*fixed position of the pop-up box*/
+	width: 100%; /*width of the pop-up box*/
+	height: 120%;/*width of the pop-up box*/
+	background-color: rgba(0,0,0,0.7); /*background color of the pop-up box*/
+	display: none;/*block - one beneath / in-line - side by side for the pop-up box*/
+	cursor: pointer;/*changes cursor to pointer*/
+}
+
+/*Boundaries of the pop-up box*/
+.popupBoxWrapper{
+	width: 550px; /*width of the wrapper*/
+	margin: 50px auto; /*margin of the wrapper*/
+	text-align: center;/*aligns text to center of the wrapper*/
+	transition: 0.6s ease;/*smooth fade effect*/
+}
+
+/*content withing the pop-up box*/
+.popupBoxContent{
+	width: 100%;
+	background-color: #FFF; /*background color of the content*/
+	padding: 15px;/*side gaps of the content within the pop-up box*/
+	margin-top: 10%;/*top margin gap of the content within the pop-up box*/
+	border-radius: 4px;/*corners of the pop-up box*/
+	transition: 0.6s ease;/*smooth fade effect*/
+	color:  #0033cc;;/*color of the container's text*/
+}
+
+/*content for Donation button withing the pop-up box*/
+.popupBoxContents{
+	width: 100%;
+	background-color: #FFF; /*background color of the content*/
+	padding: 15px;/*side gaps of the content within the pop-up box*/
+	margin-top: 50%;/*top margin gap of the content within the pop-up box*/
+	border-radius: 4px;/*corners of the pop-up box*/
+	transition: 0.6s ease;/*smooth fade effect*/
+	color:  #0033cc;;/*color of the container's text*/
+}
+
+/*control the main areas*/
+main{
+	width:100%;/*width of the main area*/
+	float:left;/*position of the main area*/
+	border:0px solid black;/*border of the main area*/
+	font-family: Century Gothic;/*font of the main area*/
+}
+
+/* contains all sub-classes*/
+.contain{
+		width:900px;/*width of the container*/
+		margin-right:49px;/*right margin of the container*/
+		margin-left: 49px;/*left margin of the container*/
+		margin-top: 50px;/*top margin of the container*/
+		margin-bottom: 50px;/*bottom margin of the container*/
+		float: left;/*moves to the left of the container*/
+		display: block;/*block - one beneath / in-line - side by side*/
+		border: 0px solid black;/*border of the container*/
+		color:  #0033cc;;/*color of the container's text*/
+		cursor: pointer;/*changes cursor to pointer*/
+		transition: 0.6s ease;/*smooth fade effect*/
+}
+		
+/* contains first product box*/
+.prod_box{
+		width:278px;/*width of the prod box*/
+		float: left;/*moves to the left of the prod box*/
+		display: block;/*block - one beneath / in-line - side by side*/
+		margin: 10px;/*margin of the prod box*/
+}
+		
+/* contains first product picture*/
+.prod_pic{
+		width:278px;/*width of the prod picture*/
+		float: left;/*moves to the left of the prod picture*/
+		display: block;/*block - one beneath / in-line - side by side*/
+		border: 0px solid black;/*border of the prod picture*/
+		cursor: pointer;/*changes cursor to pointer*/
+		transition: 0.6s ease;/*smooth fade effect*/
+}
+
+/*when the mouse hover*/
+.prod_pic:hover{
+	box-shadow: 0 0 0 3px;/*shadow around the box*/
+	border-radius: 4px;/*corners of the prod picture box*/
+}
+
+/* contains first product price*/
+.prod_price{
+		width:278px;/*width of the prod price box*/
+		float: left;/*moves to the left of the prod price box*/
+		display: block;/*block - one beneath / in-line - side by side*/
+		border: 0px solid black;/*border of the prod price box*/
+		margin-top: 5px;/*top margin of the prod price box*/
+		color: #0033cc;/*color of the prod price box text*/
+		background-color: #ffff00;/*background color of the prod price box*/
+		text-align:center;/*aligns text to center of the prod price box*/
+		border-radius: 4px;/*corners of the prod price box*/
+}
+
+/* contains second product box*/
+.prod_box2{
+		width:278px;/*width of the product box*/
+		float: left;/*moves to the left of the prod box*/
+		display: block;/*block - one beneath / in-line - side by side*/
+		margin: 10px;/*margin of the prod box*/
+}
+		
+/* contains second product picture*/
+.prod_pic2{
+		width:278px;/*width of the product picture*/
+		float: left;/*moves to the left of the prod picture*/
+		display: block;/*block - one beneath / in-line - side by side*/
+		border: 0px solid black;/*border of the prod price picture*/
+		cursor: pointer;/*changes cursor to pointer*/
+		transition: 0.6s ease;/*smooth fade effect*/
+}
+
+/*when the mouse hover*/
+.prod_pic2:hover{
+	box-shadow: 0 0 0 3px;/*shadow around the box*/
+	border-radius: 4px;/*corners of the prod picture box*/
+}
+
+/* contains second product price*/
+.prod_price2{
+		width:278px;/*width of the prod price box*/
+		float: left;/*moves to the left of the prod price box*/
+		display: block;/*block - one beneath / in-line - side by side*/
+		border: 0px solid black;/*border of the prod price box*/
+		margin-top: 5px;/*top margin of the prod price box*/
+		color: #0033cc;/*color of the prod price box text*/
+		background-color: #ffff00;/*background color of the prod price box*/
+		text-align:center;/*aligns text to center of the prod price box*/
+		border-radius: 4px;/*corners of the prod price box*/
+}
+
+/* contains third product box*/
+.prod_box3{
+		width:278px;/*width of the product box*/
+		float: left;/*moves to the left of the prod box*/
+		display: block;/*block - one beneath / in-line - side by side*/
+		margin: 10px;/*margin of the prod box*/
+}
+		
+/* contains third product picture*/
+.prod_pic3{
+		width:278px;/*width of the product picture*/
+		float: left;/*moves to the left of the prod picture*/
+		display: block;/*block - one beneath / in-line - side by side*/
+		border: 0px solid black;/*border of the prod price picture*/
+		cursor: pointer;/*changes cursor to pointer*/
+		transition: 0.6s ease;/*smooth fade effect*/
+}
+
+/*when the mouse hover*/
+.prod_pic3:hover{
+	box-shadow: 0 0 0 2px;/*shadow around the box*/
+	border-radius: 4px;/*corners of the prod picture box*/
+}
+
+/* contains third product price*/
+.prod_price3{
+		width:278px;/*width of the prod price box*/
+		float: left;/*moves to the left of the prod price box*/
+		display: block;/*block - one beneath / in-line - side by side*/
+		border: 0px solid black;/*border of the prod price box*/
+		margin-top: 5px;/*top margin of the prod price box*/
+		color: #0033cc;/*color of the prod price box text*/
+		background-color: #ffff00;/*background color of the prod price box*/
+		text-align:center;/*aligns text to center of the prod price box*/
+		border-radius: 4px;/*corners of the prod price box*/
+}
+
+/* contains fourth product box*/
+.prod_box4{
+		width:278px;/*width of the product box*/
+		float: left;/*moves to the left of the prod box*/
+		display: block;/*block - one beneath / in-line - side by side*/
+		margin: 10px;/*margin of the prod box*/
+}
+		
+/* contains fourth product picture*/
+.prod_pic4{
+		width:278px;/*width of the product picture*/
+		float: left;/*moves to the left of the prod picture*/
+		display: block;/*block - one beneath / in-line - side by side*/
+		border: 0px solid black;/*border of the prod price picture*/
+		cursor: pointer;/*changes cursor to pointer*/
+		transition: 0.6s ease;/*smooth fade effect*/
+}
+
+/*when the mouse hover*/
+.prod_pic4:hover{
+	box-shadow: 0 0 0 3px;/*shadow around the box*/
+	border-radius: 4px;/*corners of the prod picture box*/
+}
+
+/* contains fourth product price*/
+.prod_price4{
+		width:278px;/*width of the prod price box*/
+		float: left;/*moves to the left of the prod price box*/
+		display: block;/*block - one beneath / in-line - side by side*/
+		border: 0px solid black;/*border of the prod price box*/
+		margin-top: 5px;/*top margin of the prod price box*/
+		color: #0033cc;/*color of the prod price box text*/
+		background-color: #ffff00;/*background color of the prod price box*/
+		text-align:center;/*aligns text to center of the prod price box*/
+		border-radius: 4px;/*corners of the prod price box*/
+}
+
+/* contains fifth product box*/
+.prod_box5{
+		width:278px;/*width of the product box*/
+		float: left;/*moves to the left of the prod box*/
+		display: block;/*block - one beneath / in-line - side by side*/
+		margin: 10px;/*margin of the prod box*/
+}
+		
+/* contains fifth product picture*/
+.prod_pic5{
+		width:278px;/*width of the product picture*/
+		float: left;/*moves to the left of the prod picture*/
+		display: block;/*block - one beneath / in-line - side by side*/
+		border: 0px solid black;/*border of the prod price picture*/
+		cursor: pointer;/*changes cursor to pointer*/
+		transition: 0.6s ease;/*smooth fade effect*/
+}
+
+/*when the mouse hover*/
+.prod_pic5:hover{
+	box-shadow: 0 0 0 3px;/*shadow around the box*/
+	border-radius: 4px;/*corners of the prod picture box*/
+}
+
+/* contains fifth product price*/
+.prod_price5{
+		width:278px;/*width of the prod price box*/
+		float: left;/*moves to the left of the prod price box*/
+		display: block;/*block - one beneath / in-line - side by side*/
+		border: 0px solid black;/*border of the prod price box*/
+		margin-top: 5px;/*top margin of the prod price box*/
+		color: #0033cc;/*color of the prod price box text*/
+		background-color: #ffff00;/*background color of the prod price box*/
+		text-align:center;/*aligns text to center of the prod price box*/
+		border-radius: 4px;/*corners of the prod price box*/
+}
+
+/* contains sixth product box*/
+.prod_box6{
+		width:278px;/*width of the product box*/
+		float: left;/*moves to the left of the prod box*/
+		display: block;/*block - one beneath / in-line - side by side*/
+		margin: 10px;/*margin of the prod box*/
+}
+		
+/* contains sixth product picture*/
+.prod_pic6{
+		width:278px;/*width of the product picture*/
+		float: left;/*moves to the left of the prod picture*/
+		display: block;/*block - one beneath / in-line - side by side*/
+		border: 0px solid black;/*border of the prod price picture*/
+		cursor: pointer;/*changes cursor to pointer*/
+		transition: 0.6s ease;/*smooth fade effect*/
+}
+
+/*when the mouse hover*/
+.prod_pic6:hover{
+	box-shadow: 0 0 0 3px;/*shadow around the box*/
+	border-radius: 4px;/*corners of the prod picture box*/
+}
+
+/* contains sixth product price*/
+.prod_price6{
+		width:278px;/*width of the prod price box*/
+		float: left;/*moves to the left of the prod price box*/
+		display: block;/*block - one beneath / in-line - side by side*/
+		border: 0px solid black;/*border of the prod price box*/
+		margin-top: 5px;/*top margin of the prod price box*/
+		color: #0033cc;/*color of the prod price box text*/
+		background-color: #ffff00;/*background color of the prod price box*/
+		text-align:center;/*aligns text to center of the prod price box*/
+		border-radius: 4px;/*corners of the prod price box*/
+}		
+
+.addbutton{	
+	width:50%;/*width of the header*/   
+	background-color: silver;/*background color of the submit button*/
+	color:  #0033cc;/*color of the text*/
+	padding:1%;/*side gaps within the submit button*/
+	margin-left:24%;/*left margin of the home nav box*/
+	border-radius: 4px solid #fff;/*side gaps within the submit button*/
+	border: 2px solid #fff;/*border of the submit button*/
+	cursor: pointer;/*changes cursor to pointer*/
+	transition: 0.6s all;/*smooth fade effect*/
+}
+
+.addbutton:hover{
+	background-color: #fff;/*background color of the submit button*/
+	box-shadow: 0 0 0 2px;/*box shadow of the submit button*/
+	color:  #000;/*color of the text*/
+
+}
+
+.pay{      
+	width:100%;/*width of the header*/       
+	float:left;/*position of the header*/
+	border:0px solid black;/*border of the header*/ 
+	color: #0033cc;/*color of the header text*/
+	padding:1%;/*side gaps within the submit button*/
+	font-family: Century Gothic;/*font of the header*/
+	background-color: #ffff00;/*background color of the header*/
+	text-align:center;/*alignment of the text of the header*/
+	border-radius: 4px;/*corners of the header box*/
+	margin-top:5%;/*left margin of the home nav box*/
+	margin-left:1%;/*left margin of the home nav box*/
+	margin-bottom:5%;/*left margin of the home nav box*/
+}
+
+
+.paybutton{	
+	width:50%;/*width of the header*/   
+	background-color: silver;/*background color of the submit button*/
+	color:  #0033cc;/*color of the text*/
+	padding:1%;/*side gaps within the submit button*/
+	margin-left:24%;/*left margin of the home nav box*/
+	border-radius: 4px solid #fff;/*side gaps within the submit button*/
+	border: 2px solid #fff;/*border of the submit button*/
+	cursor: pointer;/*changes cursor to pointer*/
+	transition: 0.6s all;/*smooth fade effect*/
+}
+
+.paybutton:hover{
+	background-color: #fff;/*background color of the submit button*/
+	box-shadow: 0 0 0 2px;/*box shadow of the submit button*/
+	color:  #000;/*color of the text*/
+
+}	
+
+/* Donate box */
+.donate{      
+	width:100%;/*width of the header*/       
+	float:left;/*position of the header*/
+	border:0px solid black;/*border of the header*/ 
+	color: #0033cc;/*color of the header text*/
+	padding:1%;/*side gaps within the submit button*/
+	font-family: Century Gothic;/*font of the header*/
+	background-color: #ffff00;/*background color of the header*/
+	text-align:center;/*alignment of the text of the header*/
+	border-radius: 4px;/*corners of the header box*/
+	margin-top:5%;/*left margin of the home nav box*/
+	margin-left:1%;/*left margin of the home nav box*/
+	margin-bottom:5%;/*left margin of the home nav box*/
+}
+
+.donatebutton{	
+	width:50%;/*width of the header*/   
+	background-color: silver;/*background color of the submit button*/
+	color:  #0033cc;/*color of the text*/
+	padding:1%;/*side gaps within the submit button*/
+	margin-left:24%;/*left margin of the home nav box*/
+	border-radius: 4px solid #fff;/*side gaps within the submit button*/
+	border: 2px solid #fff;/*border of the submit button*/
+	cursor: pointer;/*changes cursor to pointer*/
+	transition: 0.6s all;/*smooth fade effect*/
+}
+
+.donatebutton:hover{
+	background-color: #fff;/*background color of the submit button*/
+	box-shadow: 0 0 0 2px;/*box shadow of the submit button*/
+	color:  #000;/*color of the text*/
+
+}	
+
+/*social media styles*/
+.socialmedia{
+	float:left;/*position of the social-media box*/
+	margin-left: 5%;/*left margin of the social-media box*/
+	margin-right: 5%;/*right margin of the social-media box*/
+	display: in-line;/*block - one beneath / in-line - side by side*/
+	border-radius: 4px;/*side gaps within the social-media box*/
+	transition: 0.6s ease;/*smooth fade effect*/
+	cursor: pointer;/*changes cursor to pointer*/
+}
+
+/*when the mouse hover over submit button*/
+.socialmedia:hover{
+	box-shadow: 0 0 0 3px;/*box shadow of the on-click text box*/
+	border-radius: 2px;/*corners of the social-media box*/
+	margin-right: 1%;/*right margin of the social-media box*/
+}	
+
+.socialmedias{
+	float:right;/*position of the social-media box*/
+	margin-right: 5%;/*left margin of the social-media box*/
+	margin-left: 5%;/*right margin of the social-media box*/
+	display: in-line;/*block - one beneath / in-line - side by side*/
+	border-radius: 4px;/*side gaps within the social-media box*/
+	transition: 0.6s ease;/*smooth fade effect*/
+	cursor: pointer;/*changes cursor to pointer*/
+}
+
+/*when the mouse hover over submit button*/
+.socialmedias:hover{
+	box-shadow: 0 0 0 3px;/*box shadow of the on-click text box*/
+	border-radius: 2px;/*corners of the social-media box*/
+	margin-left: 1%;/*right margin of the social-media box*/
+	
+}	
+
+/*control the bottom area*/
+footer{
+	width:100%;/*width of the footer*/
+	float:left;/*moves to the left of the footer*/
+	display:in-line;/*block - one beneath / in-line - side by side*/
+	border:0px solid black;/*border of the footer*/
+	color: #0033cc;/*color of the footer box text*/
+	background-color: #ffff00;/*background color of the footer box*/
+	text-align:center;/*aligns text to center of the footer box*/
+	font-family: Century Gothic;/*font of the footer area*/
+	border-radius: 4px;/*corners of the footer box*/
+}

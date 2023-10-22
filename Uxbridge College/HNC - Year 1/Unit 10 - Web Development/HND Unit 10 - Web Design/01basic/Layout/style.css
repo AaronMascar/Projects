@@ -1,0 +1,32 @@
+/*control the layer */
+
+
+/*control wrapper*/
+#aaron{
+	width:1000px;/*width of the header*/
+	margin:0 auto;/*adds a margin */
+}
+
+/*control the heading*/
+#header{
+	width:100%;/*width of the header*/       
+	float:left;/*position of the header*/
+	display:block;/*block - one beneath / in-line - side by side*/
+	border:1px solid red;/*border of the header*/ 
+}
+
+/*control the main areas*/
+main{
+	width:100%;/*width of the header*/
+	float:left;/*position of the header*/
+	display: block;/*block - one beneath / in-line - side by side*/
+	border:1px solid red;/*border of the header*/
+}
+
+/*control the bottom area*/
+footer{
+	width:100%;/*width of the header*/
+	float:left;/*position of the header*/
+	display:block;/*block - one beneath / in-line - side by side*/
+	border:1px solid red;/*border of the header*/
+}

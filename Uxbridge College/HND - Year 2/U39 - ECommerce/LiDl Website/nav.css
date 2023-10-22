@@ -1,0 +1,187 @@
+/*control main navigation of SCENT Perfume Wholesale*/
+
+/*control the main areas*/
+#main_u1{
+	margin:0;/*margin of the main area*/
+	padding:0;/*space between of the main area*/
+}
+
+/*controls the nav box*/
+.home_li{
+	width:160px;/*width of the home nav box*/
+	float:left;/*moves to the left of the home nav box*/
+	display:inline;/*block - one beneath / in-line - side by side*/
+	margin-left:0px; /*left margin of the home nav box*/
+	background: #fff;/*background of the home nav box*/
+	border:1px solid;/*border of the home nav box*/
+	text-align:center;/*aligns text to center of the home nav box*/
+	border-radius: 4px;/*corners of the container*/
+}
+
+/*controls the text within the nav box*/
+.home{
+	font-size:17px;/*font of the text*/
+	text-decoration:none; /*remove the underline*/
+	color: red;/*color of the text*/
+	width: 100%;/*width of the text*/
+	height:100%;/*height of the text*/
+	display:block;/*block - one beneath / in-line - side by side*/
+	transition:0.6s ease;/*smooth fade effect*/
+	font-family: Century Gothic;/*font of the text*/
+}
+
+/*when the mouse hover*/
+.home:hover{
+	background: #ffff00;/*background color of the home nav box while hovering*/
+	color: #0033cc;/*text color of the home nav box while hovering*/
+}
+
+/*controls the nav box*/
+.offers_li{
+	width:160px;/*width of the home nav box*/
+	float:left;/*moves to the left of the home nav box*/
+	display:inline;/*block - one beneath / in-line - side by side*/
+	margin-left:5px;/*left margin of the home nav box*/
+	background: #0033cc;/*background of the home nav box*/
+	border:1px solid;/*border of the home nav box*/
+	text-align:center;/*aligns text to center of the home nav box*/
+	border-radius: 4px;/*corners of the container*/
+}
+
+/*controls the text within the nav box*/
+.offers{
+	font-size:17px;/*font of the text*/
+	text-decoration:none; /*remove the underline*/
+	color: #ffff00;/*color of the text*/
+	width: 100%;/*width of the text*/
+	height:100%;/*height of the text*/
+	display:block;/*block - one beneath / in-line - side by side*/
+	transition:0.6s ease;/*smooth fade effect*/
+	font-family: Century Gothic;/*font of the text*/
+}
+
+/*when the mouse hover*/
+.offers:hover{
+	background: #ffff00;/*background color of the home nav box while hovering*/
+	color: #0033cc;/*text color of the home nav box while hovering*/
+}
+
+/*controls the nav box*/
+.products_li{
+	width:160px;/*width of the home nav box*/
+	float:left;/*moves to the left of the home nav box*/
+	display:inline;/*block - one beneath / in-line - side by side*/
+	margin-left:5px;/*left margin of the home nav box*/
+	background: #0033cc;/*background of the home nav box*/
+	border:1px solid;/*border of the home nav box*/
+	text-align:center;/*aligns text to center of the home nav box*/
+	border-radius: 4px;/*corners of the container*/
+}
+
+/*controls the text within the nav box*/
+.products{
+	font-size:17px;/*font of the text*/
+	text-decoration:none; /*remove the underline*/
+	color: #ffff00;/*color of the text*/
+	width: 100%;/*width of the text*/
+	height:100%;/*height of the text*/
+	display:block;/*block - one beneath / in-line - side by side*/
+	transition:0.6s ease;/*smooth fade effect*/
+	font-family: Century Gothic;/*font of the text*/
+}
+
+/*when the mouse hover*/
+.products:hover{
+	background: #ffff00;/*background color of the home nav box while hovering*/
+	color: #0033cc;/*text color of the home nav box while hovering*/
+}
+
+/*controls the nav box*/
+.gifts_li{
+	width:160px;/*width of the home nav box*/
+	float:left;/*moves to the left of the home nav box*/
+	display:inline;/*block - one beneath / in-line - side by side*/
+	margin-left:5px;/*left margin of the home nav box*/
+	background: #0033cc;/*background of the home nav box*/
+	border:1px solid;/*border of the home nav box*/
+	text-align:center;/*aligns text to center of the home nav box*/
+	border-radius: 4px;/*corners of the container*/
+}
+
+/*controls the text within the nav box*/
+.gifts{
+	font-size:17px;/*font of the text*/
+	text-decoration:none; /*remove the underline*/
+	color: #ffff00;/*color of the text*/
+	width: 100%;/*width of the text*/
+	height:100%;/*height of the text*/
+	display:block;/*block - one beneath / in-line - side by side*/
+	transition:0.6s ease;/*smooth fade effect*/
+	font-family: Century Gothic;/*font of the text*/
+}
+
+/*when the mouse hover*/
+.gifts:hover{
+	background: #ffff00;/*background color of the home nav box while hovering*/
+	color: #0033cc;/*text color of the home nav box while hovering*/
+}
+
+/*controls the nav box*/
+.sale_li{
+	width:160px;/*width of the home nav box*/
+	float:left;/*moves to the left of the home nav box*/
+	display:inline;/*block - one beneath / in-line - side by side*/
+	margin-left:5px;/*left margin of the home nav box*/
+	background: #0033cc;/*background of the home nav box*/
+	border:1px solid;/*border of the home nav box*/
+	text-align:center;/*aligns text to center of the home nav box*/
+	border-radius: 4px;/*corners of the container*/
+}
+
+/*controls the text within the nav box*/
+.sale{
+	font-size:17px;/*font of the text*/
+	text-decoration:none; /*remove the underline*/
+	color: #ffff00;/*color of the text*/
+	width: 100%;/*width of the text*/
+	height:100%;/*height of the text*/
+	display:block;/*block - one beneath / in-line - side by side*/
+	transition:0.6s ease;/*smooth fade effect*/
+	font-family: Century Gothic;/*font of the text*/
+}
+
+/*when the mouse hover*/
+.sale:hover{
+	background: #ffff00;/*background color of the home nav box while hovering*/
+	color: #0033cc;/*text color of the home nav box while hovering*/
+}
+
+/*controls the nav box*/
+.contact_li{
+	width:163px;/*width of the home nav box*/
+	float:left;/*moves to the left of the home nav box*/
+	display:inline;/*block - one beneath / in-line - side by side*/
+	margin-left:5px;/*left margin of the home nav box*/
+	background: #0033cc;/*background of the home nav box*/
+	border:1px solid;/*border of the home nav box*/
+	text-align:center;/*aligns text to center of the home nav box*/
+	border-radius: 4px;/*corners of the container*/
+}
+
+/*controls the text within the nav box*/
+.contact{
+	font-size:17px;/*font of the text*/
+	text-decoration:none; /*remove the underline*/
+	color: #ffff00;/*color of the text*/
+	width: 100%;/*width of the text*/
+	height:100%;/*height of the text*/
+	display:block;/*block - one beneath / in-line - side by side*/
+	transition:0.6s ease;/*smooth fade effect*/
+	font-family: Century Gothic;/*font of the text*/
+}
+
+/*when the mouse hover*/
+.contact:hover{
+	background: #ffff00;/*background color of the home nav box while hovering*/
+	color: #0033cc;/*text color of the home nav box while hovering*/
+}

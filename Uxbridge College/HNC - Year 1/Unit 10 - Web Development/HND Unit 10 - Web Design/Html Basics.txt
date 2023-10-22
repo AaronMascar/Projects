@@ -1,0 +1,9 @@
+1 no end with .html
+2 no space between words 
+3 home page is always be names as index.html
+4 all words should be lower case
+5 names should be short
+6 all files should be in one folder
+7 do not put numbers at the beginning 
+8 format -
+  	
